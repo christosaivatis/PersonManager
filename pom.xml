@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>none.mydomain.personmanager</groupId>
+    <artifactId>person-manager</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <!--    Dient nur zur Vereinfachung, damit man durch Maven beide Module (Projekte)
+            nur mit einem Knopfdruck cleanen, kompilieren, testen, installieren etc. kann. -->
+    <modules>
+        <module>PersonManagerBackend</module>
+        <module>PersonManagerFrontend</module>
+    </modules>
+
+<!--    Nichts Weiteres, da die zwei Module (PersonManagerBackend und PersonManagerFrontend)
+        wie zwei getrennte Projekte verwaltet werden sollen (zwei unterschiedliche Git-Repositories).   -->
+
+</project>
