@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2023-06-02T12:21:53.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="QHQ-qvCSkzGYSqvc4saQ" version="21.2.8" type="device">
+  <diagram name="Seite-1" id="2w4AtKQmejPZ61Jx6JId">
+    <mxGraphModel dx="987" dy="585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SITax1jtSVOlII_Rxk9G-3" value="MySql&lt;br&gt;Port : 3306" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="203" y="387" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-4" value="Server" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="183" y="347" width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-6" value="jdbc:mysql://[server]/test" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="523" y="357" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-7" value="Client" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="453" y="347" width="491" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-8" value="JDBC-Driver" style="rounded=1;whiteSpace=wrap;html=1;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry x="463" y="397" width="30" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-11" value="Hibernate" style="rounded=1;whiteSpace=wrap;html=1;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry x="557" y="397" width="30" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-12" value="PersonManagerBackend" style="rounded=1;whiteSpace=wrap;html=1;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry x="663" y="397" width="30" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-14" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="363" y="451.71" as="sourcePoint" />
+            <mxPoint x="443" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-18" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="503" y="427" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-20" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="503" y="467" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-21" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="503" y="502" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-23" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="603" y="427" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-24" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="603" y="467" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-25" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="603" y="502" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-26" value="PersonManagerFrontend" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="763" y="417" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-33" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="703" y="477" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-34" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="703" y="437" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-36" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="813" y="227" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-37" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="827.71" y="410" as="sourcePoint" />
+            <mxPoint x="827.71" y="317" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SITax1jtSVOlII_Rxk9G-38" value="XAMPP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="238" y="317" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
