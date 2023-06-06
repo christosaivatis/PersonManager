@@ -1,5 +1,7 @@
 # PersonManager
+
 For an overview of the project structure see the file "docs/project_strukture.PNG".
+
 Technologies used:
 - IntelliJ IDEA
 - Maven
